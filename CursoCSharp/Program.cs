@@ -17,6 +17,7 @@ namespace CursoCSharp {
                 {"Operadores Relacionais - Fundamentos",OperadoresRelacionais.Executar},
                 {"Operadores Atribuição - Fundamentos",OperadoresAtribuicao.Executar},
                 {"Estruturas De Controle - Fundamentos",EstruturasDeControle.Executar},
+                {"Exercicio If Else - Fundamentos",ExercicioIfElse.Executar},
             }); 
 
             central.SelecionarEExecutar();

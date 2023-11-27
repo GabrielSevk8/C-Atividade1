@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -18,6 +19,18 @@ namespace CursoCSharp {
                 {"Operadores Atribuição - Fundamentos",OperadoresAtribuicao.Executar},
                 {"Estruturas De Controle - Fundamentos",EstruturasDeControle.Executar},
                 {"Exercicio If Else - Fundamentos",ExercicioIfElse.Executar},
+                {"Try Parse - Fundamentos",TryParse.Executar},
+                {"Estrutura Switch - Fundamentos",EstruturaSwitch.Executar},
+                {"Estrutura While - Fundamentos",EstruturaWhile.Executar},
+                {"Estrutura For - Fundamentos",EstruturaFor.Executar},
+                {"Pratica Contador - Fundamentos",PraticaCont.Executar},
+                {"Estrutura For Each - Fundamentos",EstruturaForEach.Executar},
+
+                // Orientação a objetos - MÉTODOS
+                {"Membros - Classes e Métodos",Membros.Executar},
+                {"Construtores - Classes e Métodos",Construtores.Executar},
+                {"Métodos Com Retorno - Classes e Métodos",MetodosComRetorno.Executar},
+                {"Exercicio Métodos Com Retorno - Classes e Métodos",ExercicioMetodosComRetorno.Executar},
             }); 
 
             central.SelecionarEExecutar();
